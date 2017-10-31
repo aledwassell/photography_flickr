@@ -1,0 +1,20 @@
+{
+  "name": "flickr_api_photography",
+  "homepage": "https://github.com/aledwassell/aledwassell_photography",
+  "authors": [
+    "Aled's Pro!"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.6"
+  }
+}
