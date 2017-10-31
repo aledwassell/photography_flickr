@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9387e551-00b8-432c-ae3d-bec1efec1b00" name="Default" comment="test">
+    <list default="true" id="9387e551-00b8-432c-ae3d-bec1efec1b00" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state relative-caret-position="83">
+              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -135,6 +135,17 @@
               <item name="aledwassell_photo_flickr" type="b2602c69:ProjectViewProjectNode" />
               <item name="aledwassell_photo_flickr" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="aledwassell_photo_flickr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aledwassell_photo_flickr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bower_components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aledwassell_photo_flickr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aledwassell_photo_flickr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bower_components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="angular" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -174,7 +185,7 @@
       <workItem from="1507743348162" duration="15234000" />
       <workItem from="1509308955015" duration="1131000" />
       <workItem from="1509488105147" duration="381000" />
-      <workItem from="1509488781911" duration="768000" />
+      <workItem from="1509488781911" duration="826000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1507744454014</created>
@@ -246,11 +257,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509489360835</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test">
+      <created>1509489557514</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1509489557515</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17514000" />
+    <option name="totallyTimeSpent" value="17572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="-698" width="1262" height="698" extended-state="0" />
@@ -432,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="83">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding />
         </state>
       </provider>
