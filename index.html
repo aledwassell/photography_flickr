@@ -21,7 +21,9 @@
     <body ng-app="flickr_photo">
     <div ng-controller="representation_section_controller">
         {{me}}
-        hello
+        <ul>
+            <li ng-repeat="thing in list">{{thing}}</li>
+        </ul>
     </div>
 
 
