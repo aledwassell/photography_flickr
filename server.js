@@ -2,22 +2,23 @@
     'use strict';
 
     const http = require('http');
+
+    const express = require('express');
+    const app = express();
+
     const port = 8000;
 
-    const requestHandler = (req, res) => {
-        console.log(req.url)
-        res.end('My node server');
-    }
-
-    const server = http.createServer(requestHandler)
-        .listen(port, (err) => {
-            if (err) {
-                return console.log('There was an error: ', err);
-            }
-
-            console.log(`Server running at port: ${port}`)
+    app.get('/', (req, res) => {
+        res.sendfile('index.html');
     })
 
+        .listen(port, (err) => {
+            if (err){
+                return console.log(`There was an error: ${err}`);
+            }
+
+            console.log(`New node server is running on port: ${port}`)
+        })
 
 })();
 
