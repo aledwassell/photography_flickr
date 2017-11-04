@@ -1,15 +1,15 @@
 (function () {
     'use strict';
 
-    var express = require('express');
-    var app = express();
+    var http = require('http');
+    var date = require('node_module/hello.js');
 
-    app.use(express.static(_dirname + '/app'));
-
-    var port = 8000;
-    app.listen(port, function () {
-        console.log('listening on port: ', port);
-    });
+    http.createServer(function(req, res){
+        res.writeHead(200, {'Content-Type': 'text/plain'})
+            .write('Hello Aled, this is the date: ' + date.myDate())
+        res.end();
+        console.log(res, ": my response")
+    }).listen(8000);
 
 })();
 
