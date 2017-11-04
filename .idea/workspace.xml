@@ -40,8 +40,14 @@
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
-                  <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-                  <folding />
+                  <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                  <folding>
+                    <marker date="1509572431000" expanded="true" signature="122:280" ph="{...}" />
+                    <marker date="1509572431000" expanded="true" signature="161:269" ph="{&quot;controller&quot;: 'HomeController'...}" />
+                    <marker date="1509572431000" expanded="true" signature="339:530" ph="[...]" />
+                    <marker date="1509572431000" expanded="true" signature="368:529" ph="{...}" />
+                    <marker date="1509572431000" expanded="true" signature="428:519" ph="[...]" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -54,7 +60,7 @@
             <entry file="file://$PROJECT_DIR$/bower.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -63,8 +69,8 @@
           <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -74,8 +80,10 @@
             <entry file="file://$PROJECT_DIR$/node_modules/hello.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
-                  <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-                  <folding />
+                  <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                  <folding>
+                    <marker date="1509784554000" expanded="true" signature="27:49" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -209,7 +217,7 @@
       <workItem from="1509488781911" duration="1946000" />
       <workItem from="1509572070387" duration="3185000" />
       <workItem from="1509782765056" duration="702000" />
-      <workItem from="1509783818179" duration="826000" />
+      <workItem from="1509783818179" duration="2196000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1507744454014</created>
@@ -344,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509574475644</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="making node server">
+      <created>1509784791849</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1509784791849</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24915000" />
+    <option name="totallyTimeSpent" value="26285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1276" y="22" width="1269" height="682" extended-state="0" />
@@ -385,7 +400,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="&#10;nav" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="making node server" />
+    <option name="LAST_COMMIT_MESSAGE" value="making node server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -420,7 +436,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1509572431000" expanded="true" signature="122:280" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="161:269" ph="{&quot;controller&quot;: 'HomeController'...}" />
+            <marker date="1509572431000" expanded="true" signature="339:530" ph="[...]" />
+            <marker date="1509572431000" expanded="true" signature="368:529" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="428:519" ph="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -460,7 +482,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1509572431000" expanded="true" signature="122:280" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="161:269" ph="{&quot;controller&quot;: 'HomeController'...}" />
+            <marker date="1509572431000" expanded="true" signature="339:530" ph="[...]" />
+            <marker date="1509572431000" expanded="true" signature="368:529" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="428:519" ph="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,7 +536,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
+          <folding>
+            <marker date="1509572431000" expanded="true" signature="122:280" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="161:269" ph="{&quot;controller&quot;: 'HomeController'...}" />
+            <marker date="1509572431000" expanded="true" signature="339:530" ph="[...]" />
+            <marker date="1509572431000" expanded="true" signature="368:529" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="428:519" ph="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -532,7 +566,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1509572431000" expanded="true" signature="122:280" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="161:269" ph="{&quot;controller&quot;: 'HomeController'...}" />
+            <marker date="1509572431000" expanded="true" signature="339:530" ph="[...]" />
+            <marker date="1509572431000" expanded="true" signature="368:529" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="428:519" ph="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -572,7 +612,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1509572431000" expanded="true" signature="122:280" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="161:269" ph="{&quot;controller&quot;: 'HomeController'...}" />
+            <marker date="1509572431000" expanded="true" signature="339:530" ph="[...]" />
+            <marker date="1509572431000" expanded="true" signature="368:529" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="428:519" ph="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +650,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="51" />
-          <folding />
+          <folding>
+            <marker date="1509572431000" expanded="true" signature="122:280" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="161:269" ph="{&quot;controller&quot;: 'HomeController'...}" />
+            <marker date="1509572431000" expanded="true" signature="339:530" ph="[...]" />
+            <marker date="1509572431000" expanded="true" signature="368:529" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="428:519" ph="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -665,15 +717,7 @@
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -681,15 +725,31 @@
     <entry file="file://$PROJECT_DIR$/node_modules/hello.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding>
+            <marker date="1509784554000" expanded="true" signature="27:49" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1509572431000" expanded="true" signature="122:280" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="161:269" ph="{&quot;controller&quot;: 'HomeController'...}" />
+            <marker date="1509572431000" expanded="true" signature="339:530" ph="[...]" />
+            <marker date="1509572431000" expanded="true" signature="368:529" ph="{...}" />
+            <marker date="1509572431000" expanded="true" signature="428:519" ph="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

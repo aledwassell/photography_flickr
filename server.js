@@ -1,15 +1,23 @@
 (function () {
     'use strict';
 
-    var http = require('http');
-    var date = require('node_module/hello.js');
+    const http = require('http');
+    const port = 8000;
 
-    http.createServer(function(req, res){
-        res.writeHead(200, {'Content-Type': 'text/plain'})
-            .write('Hello Aled, this is the date: ' + date.myDate())
-        res.end();
-        console.log(res, ": my response")
-    }).listen(8000);
+    const requestHandler = (req, res) => {
+        console.log(req.url)
+        res.end('My node server');
+    }
+
+    const server = http.createServer(requestHandler)
+        .listen(port, (err) => {
+            if (err) {
+                return console.log('There was an error: ', err);
+            }
+
+            console.log(`Server running at port: ${port}`)
+    })
+
 
 })();
 
