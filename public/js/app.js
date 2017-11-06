@@ -33,11 +33,11 @@
             ]
         }])
         .controller('aboutController ', ['$scope', function ($scope) {
-        $scope.me = 'Aled';
-        $scope.list = [
-            'Sheep',
-            'Goats',
-            'Bananas'
-        ]
+            $scope.me = 'Aled';
+            $scope.list = [
+                'Sheep',
+                'Goats',
+                'Bananas'
+            ]
     }]);
 })();
