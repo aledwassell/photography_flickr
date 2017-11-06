@@ -1,16 +1,10 @@
 (function () {
     'use strict';
-
-    const http = require('http');
-
     const express = require('express');
     const app = express();
+    const port = process.env.PORT || 8000;
 
-    const port = 8000;
-
-    app.get('/', (req, res) => {
-        res.sendfile('index.html');
-    })
+    app.use(express.static('public'))
 
         .listen(port, (err) => {
             if (err){
