@@ -24,7 +24,7 @@
                     console.log(data, err)
                 })
         }])
-        .controller('homeController ', ['$scope', function ($scope) {
+        .controller('homeController', ['$scope', function ($scope) {
             $scope.me = 'Aled';
             $scope.list = [
                 'Sheep',
@@ -32,7 +32,7 @@
                 'Bananas'
             ]
         }])
-        .controller('aboutController ', ['$scope', function ($scope) {
+        .controller('aboutController', ['$scope', function ($scope) {
             $scope.me = 'Aled';
             $scope.list = [
                 'Sheep',
